@@ -1,0 +1,17 @@
+{
+"msmarco_dpo":{
+    "file_name": "msmarco_dpo.json",
+    "ranking": true,
+      "formatting": "sharegpt",
+  "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "weight": "weight"
+      
+  }
+},
+"msmarco_sft":{
+    "file_name":"msmarco_sft.jsonl"
+}
+}
