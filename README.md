@@ -1,6 +1,6 @@
 # LLM-SBM
 
-This repo includes the constructed [alignment data](data/msmarco_dpo.json) and code for SIGIR 2025 submission "Mitigating Source Bias with LLM Alignment".
+This repo includes the constructed [alignment data](data/msmarco_dpo.json) and code for SIGIR 2025 "Mitigating Source Bias with LLM Alignment".
 
 ## Introduction
 
@@ -80,3 +80,14 @@ For evaluation of source bias, we use the official code from the [Cocktail](http
 
 ## Acknowledge
 LLM-SBM is built based on the following project: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Note that we only retain the parts of this framework that were useful to LLM-SBM and make adaptive adjustments to it.
+
+## Citation
+If you find our work or this repo are useful for your work, please cite our work:
+```
+@inproceedings{dai2025mitigating,
+  title={Mitigating Source Bias with LLM Alignment},
+  author={Dai, Sunhao and Zhou, Yuqi and Pang, Liang and Li, Zhuoyang and Du, Zhaocheng and Wang, Gang and Xu, Jun},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2025}
+}
+```
